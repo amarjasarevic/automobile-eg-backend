@@ -1,0 +1,24 @@
+{
+  "name": "automobile-eg-backend",
+  "version": "1.0.0",
+  "description": "Automobile EG",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amar Jasarevic <amarjasha@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amarjasarevic/automobile-eg"
+  },
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "express": "4.16.4",
+    "nodemailer": "4.6.8"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  }
+}
