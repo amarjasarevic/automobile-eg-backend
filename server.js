@@ -23,8 +23,8 @@ app.post('/new-car', (req, res) => {
   const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: '****',
-      pass: '****'
+      user: 'automobile.eg.1234@gmail.com',
+      pass: 'AutomobileEG1234!'
     }
   });
   
